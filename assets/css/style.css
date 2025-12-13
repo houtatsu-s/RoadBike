@@ -118,49 +118,49 @@ nav {
 /* メインビジュアル部分 */
 
 /* About部分 */
-  .sec-about {
-    text-align: center;
-    margin: 0 auto 100px;
-  }
-  .section-title {
-    font-size: 32px;
-    font-weight: 600;
-    display: inline-block;
-    margin: 0 auto 70px;
-    text-decoration: underline;
-    text-underline-offset: 6px;
-    text-decoration-thickness: 2px;
-  }
-  .sec-contents {
-    display: flex;
-    justify-content: space-between;
-    width: 55%;
-    margin: 0 auto;
-  }
-  .con-img {
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
-  }
-  .con-img > img {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    border-radius: 50%;
-  }
-  .con-info {
-    width: calc(100% - 100px - 30px);
-    text-align: left;
-  }
-  .info-name {
-    display: inline-block;
-    font-size: 16px;
-    margin: 0 0 10px;
-    font-weight: 600;
-  }
-  .info-text {
-    font-weight: 300;
-    line-height: 110%;
-  }
+.sec-about {
+  text-align: center;
+  margin: 0 auto 100px;
+}
+.section-title {
+  font-size: 32px;
+  font-weight: 600;
+  display: inline-block;
+  margin: 0 auto 70px;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  text-decoration-thickness: 2px;
+}
+.sec-contents {
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+  margin: 0 auto;
+}
+.con-img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+.con-img > img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+}
+.con-info {
+  width: calc(100% - 100px - 30px);
+  text-align: left;
+}
+.info-name {
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 0 10px;
+  font-weight: 600;
+}
+.info-text {
+  font-weight: 300;
+  line-height: 110%;
+}
 
 @media screen and (max-width: 600px) {
   .sec-contents {
@@ -190,36 +190,36 @@ nav {
 /* About部分 */
 
 /* bicycle部分 */
-  .sec-bicycle {
-    text-align: center;
-    margin: 0 auto 110px;
-  }
-  .bicycle-list {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 0 110px;
-  }
-  .bicycle-item {
-    width: calc(100% / 3 - 20px);
-  }
-  .bit-img {
-    width: 100%;
-    margin: 0 0 10px;
-  }
-  .bit-img > img {
-    width: 100%;
-    aspect-ratio: 16 / 10;
-  }
-  .bit-name {
-    display: inline-block;
-    margin: 0 0 10px;
-    font-weight: 600;
-  }
-  .bit-text {
-    font-weight: 300;
-    font-size: 14px;
-  }
+.sec-bicycle {
+  text-align: center;
+  margin: 0 auto 110px;
+}
+.bicycle-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 110px;
+}
+.bicycle-item {
+  width: calc(100% / 3 - 20px);
+}
+.bit-img {
+  width: 100%;
+  margin: 0 0 10px;
+}
+.bit-img > img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+}
+.bit-name {
+  display: inline-block;
+  margin: 0 0 10px;
+  font-weight: 600;
+}
+.bit-text {
+  font-weight: 300;
+  font-size: 14px;
+}
 
 @media screen and (max-width: 600px) {
   .bicycle-list {
